@@ -39,6 +39,8 @@ void loop() {
     } else if (c == "3") {
       motor1.stop();  
       Serial.println("🔴Stop");
+    }else {
+      Serial.println("❌Invalid command");
     }
     printMenu();
   }
